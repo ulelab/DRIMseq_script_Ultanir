@@ -1,0 +1,23 @@
+SampleName	Condition
+WT_brain_1	WT_brain
+WT_brain_2	WT_brain
+WT_brain_3	WT_brain
+WT_brain_4	WT_brain
+WT_brain_5	WT_brain
+KO_brain_1	KO_brain
+KO_brain_2	KO_brain
+KO_brain_3	KO_brain
+KO_brain_4	KO_brain
+KO_brain_5	KO_brain
+ELAVL1_WT_1	ELAVL1_WT
+ELAVL1_WT_2	ELAVL1_WT
+ELAVL1_WT_3	ELAVL1_WT
+ELAVL1_WT_4	ELAVL1_WT
+ELAVL1_WT_5	ELAVL1_WT
+ELAVL1_HOM_1	ELAVL1_HOM
+ELAVL1_HOM_2	ELAVL1_HOM
+ELAVL1_HOM_3	ELAVL1_HOM
+ELAVL1_HOM_4	ELAVL1_HOM
+ELAVL1_HOM_5	ELAVL1_HOM
+
+

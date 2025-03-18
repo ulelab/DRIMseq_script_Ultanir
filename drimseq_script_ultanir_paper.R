@@ -11,7 +11,7 @@ library(RColorBrewer)
 library(stageR)
 
 #set working directory to location of count file directory, metadata file and poly(A) site atlas file
-setwd("/Users/llywelyngriffith/Documents/AZ_postdoc/Simeon/Nobby_APA_analysis/common_atlas/mm10/")
+setwd("/path/to/your/count/and/atlas/files/")
 
 #define PAS thresholds using PAS atlas
 all_pas.dt = fread('merged_polya.filteredunique.annotated.bed', col.names = c("seqnames", "start", "end", "id", "score", "strand", "ensg", "hgnc", "region"))
@@ -38,7 +38,7 @@ counts.df = as.data.frame(count.dt[, `:=` (gene_id = paste0(hgnc, "_", ensg),
 counts.df=counts.df[,-c(1:3)]
 
 #make metadata dataframe
-quantseq_metadata = read.table("quantseq_metadata.txt",
+quantseq_metadata = read.table("rna_seq_metadata.txt",
                                header = TRUE, as.is = TRUE)
 quantseq_samples = data.frame(sample_id = quantseq_metadata$SampleName,
                               group = quantseq_metadata$Condition)
